@@ -1,0 +1,41 @@
+body {
+  margin:0;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+.container-fluid {
+  height:100vh;
+  background-image: ;
+  background-size:cover;
+}
+.container {
+  width:50%;
+  margin: 0 auto;
+  padding-top:10%;
+}
+h2 {
+  background-color: rgba(240,240,240,0.4);
+  border-radius: 10px;
+  border: 2px solid;
+  border-color: rgb(120,20,40);
+  color: rgba(120,20,40,0.9);
+  text-shadow: 3px 3px 15px rgb(100,40,20);
+}
+h3 {
+  background-color: rgba(240,240,240,0.4);
+  border-radius: 10px;
+  color: rgba(20,120,120,0.9);
+  border: 2px solid;
+  border-color: rgb(20,120,120);
+  font-weight:bold;
+  text-shadow: 4px 4px 10px rgb(60,180,180);
+}
+h6 {
+  background-color: rgba(240,240,240,0.4);
+  border: 2px solid;
+  border-color: rgb(80,60,80);
+  border-radius: 7px;
+  box-shadow: 4px 4px 5px rgb(80,60,80);
+  color: rgba(80,60,80,0.9);
+}
+
+
