@@ -46,11 +46,11 @@ $(document).ready(function() {
 
     //changing background-image, only 3 to rotate. Snow, cloudy, desert.
     if (backgroundTemp < 32) {
-      $(".container-fluid").css("background-image", "url(https://wallpaperscraft.com/image/snow_trees_anomaly_weather_peaches_cover_50183_2560x1600.jpg)");
+      $(".container-fluid").css("background-image", "url(http://wallpaper-gallery.net/images/weather-wallpaper/weather-wallpaper-6.jpg)");
     } else if (backgroundTemp < 77) {
-      $(".container-fluid").css("background-image", "url(http://wallpaper-gallery.net/images/weather-wallpaper/weather-wallpaper-13.jpg)");
+      $(".container-fluid").css("background-image", "url(http://wallpaper-gallery.net/images/weather-wallpaper/weather-wallpaper-7.jpg)");
     } else {
-      $(".container-fluid").css("background-image", "url(http://www.tapeciarnia.pl/tapety/normalne/tapeta-pustynia-z-dolina-skal-w-arizonie.jpg)");
+      $(".container-fluid").css("background-image", "url(http://wallpaper-gallery.net/images/weather-wallpaper/weather-wallpaper-5.jpg)");
     }
   });
  });
