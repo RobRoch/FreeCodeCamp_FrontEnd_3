@@ -46,11 +46,11 @@ $(document).ready(function() {
 
     //changing background-image, only 3 to rotate. Snow, cloudy, desert.
     if (backgroundTemp < 32) {
-      $(".container-fluid").css("background-image", "url(http://wallpaper-gallery.net/images/weather-wallpaper/weather-wallpaper-6.jpg)");
+      $(".container-fluid").css("background-image", "url(./images/cold.jpg)");
     } else if (backgroundTemp < 77) {
-      $(".container-fluid").css("background-image", "url(http://wallpaper-gallery.net/images/weather-wallpaper/weather-wallpaper-7.jpg)");
+      $(".container-fluid").css("background-image", "url(./images/medium.jpg)");
     } else {
-      $(".container-fluid").css("background-image", "url(http://wallpaper-gallery.net/images/weather-wallpaper/weather-wallpaper-5.jpg)");
+      $(".container-fluid").css("background-image", "url(./images/sunny.jpg)");
     }
   });
  });
